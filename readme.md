@@ -31,6 +31,11 @@
 * [re2](http://code.google.com/p/re2/)
 
   an efficient, principled regular expression library
+
+* [pcre](http://www.pcre.org/)
+
+  The PCRE library is a set of functions that implement regular expression 
+  pattern matching using the same syntax and semantics as Perl 5.
   
 * [Stand-alone jemalloc](http://www.canonware.com/jemalloc)
 
@@ -50,6 +55,11 @@
   when a specific event occurs on a file descriptor or after a timeout 
   has been reached. Furthermore, libevent also support callbacks 
   due to signals or regular timeouts.
+
+* [stringencoders](http://code.google.com/p/stringencoders/)
+
+  A collection of high performance c-string transformations, 
+  frequently 2x faster than standard implementations (if they exist at all).
 
 * [folly](https://github.com/facebook/folly)
 
@@ -90,6 +100,11 @@
 * [expat](http://expat.sourceforge.net/)
   
   A XML parser library written in C.
+  
+* [tinyxml2](http://www.grinninglizard.com/tinyxml2/index.html)
+
+  TinyXML-2 is a simple, small, efficient, C++ XML parser that 
+  can be easily integrating into other programs.
 
 * [libhdfs](http://hadoop.apache.org/)
 
@@ -100,6 +115,18 @@
   FUSE (Filesystem in Userspace) is a simple interface for userspace
   programs to export a virtual filesystem to the Linux kernel.
 
+* [readline](www.gnu.org/software/readline/)
+
+  The Readline library provides a set of functions for use by applications
+  that allow users to edit command lines as they are typed in.
+
+* [snappy](http://code.google.com/p/snappy/)
+  
+  Snappy is a compression/decompression library. 
+  It does not aim for maximum compression, or compatibility with 
+  any other compression library; instead, it aims for very high speeds 
+  and reasonable compression.
+  
 # python #
 
 * [chartdir-python](http://www.advsofteng.com/index.html)
@@ -107,7 +134,11 @@
   The Universal Chart Component.
 
 # go #
-  
+
+* [go](http://code.google.com/p/go/)
+
+  Go is an expressive, concurrent, garbage-collected programming language.
+
 # db #
 
 * [mysql](http://www.mysql.com/)
@@ -138,6 +169,11 @@
   caching system, generic in nature, but intended for use in speeding 
   up dynamic web applications by alleviating database load.
 
+* [libMemcached](http://libmemcached.org)
+
+  libMemcached is an open source C/C++ client library and tools for
+  the memcached server.
+
 * [redis](http://redis.io/)
 
   Redis is an open source, advanced key-value store. 
@@ -149,7 +185,7 @@
   SQLite is a software library that implements a self-contained, serverless, 
   zero-configuration, transactional SQL database engine.
 
-# web #
+# net #
 
 * [modpython](http://www.modpython.org/)
 
@@ -178,6 +214,23 @@
   An open extension to CGI that provides high performance 
   for all Internet applications without any of 
   the limitations of existing Web server APIs.
+  
+* [neon](http://www.webdav.org/neon/)
+
+  neon is an HTTP and WebDAV client library, with a C language API.
+  
+* [openssl](www.openssl.org)
+
+  The OpenSSL Project is a collaborative effort to develop a robust,
+  commercial-grade, fully featured, and Open Source toolkit implementing the
+  Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1)
+  protocols as well as a full-strength general purpose cryptography library.
+  
+* [Protobuf-PHP](https://github.com/drslump/Protobuf-PHP)
+
+  Protobuf for PHP is an implementation of Google's Protocol Buffers for the PHP
+  language, supporting its binary data serialization and including a `protoc` 
+  plugin to generate PHP classes from .proto files.
 
 # distributed system #
 
@@ -190,6 +243,11 @@
   * Hadoop YARN: A framework for job scheduling and cluster resource management.
   * Hadoop MapReduce: A YARN-based system for parallel processing of large data sets.
 
+* [zookeeper](http://zookeeper.apache.org/)
+
+  ZooKeeper is a centralized service for maintaining configuration information, 
+  naming, providing distributed synchronization, and providing group services.
+
 * [thrift](http://thrift.apache.org/)
 
   The Apache Thrift software framework, for scalable cross-language 
@@ -197,6 +255,17 @@
   engine to build services that work efficiently and seamlessly between 
   C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C#, Cocoa, 
   JavaScript, Node.js, Smalltalk, OCaml and Delphi and other languages.
+
+* [graphlab](http://graphlab.org/)
+
+  With a redesigned fully distributed API, HDFS integration and 
+  a wide range of new machine learning toolkits, GraphLab is 
+  now faster, more scalable, and more powerful than ever before.
+
+* [mpich](http://www.mpich.org/)
+
+  MPICH is a high performance and widely portable implementation of 
+  the Message Passing Interface (MPI) standard.
 
 * [mesos](http://www.mesosproject.org/)
 
@@ -302,3 +371,17 @@
   Extensions are small software programs that can modify 
   and enhance the functionality of the Chrome browser.
 
+# tools #
+
+* [rietveld](http://code.google.com/p/rietveld/)
+
+  Code review.
+  
+* [swig](http://www.swig.org/)
+
+  SWIG is a software development tool that connects programs written 
+  in C and C++ with a variety of high-level programming languages.
+
+* [blade](http://code.tencent.com/projects/blade/)
+
+  Blade is designed to be a modernize building system.
