@@ -174,6 +174,11 @@
 
   A fast and lightweight key/value database library by Google.
 
+* [mongodb](http://www.mongodb.org/)
+  
+  MongoDB (from "humongous") is an open source document database, 
+  and the leading NoSQL database.
+
 * [Kyoto Cabinet](http://fallabs.com/kyotocabinet/)
 
   Kyoto Cabinet is a library of routines for managing a database.
@@ -379,8 +384,8 @@
 
 * [A simple C++ library for maximum entropy classification](http://www.nactem.ac.uk/tsuruoka/maxent/)
 
-  This is a simple C++ library for maximum entropy classifiers (also known as "multinomial logistic regression"). 
-  The main features of this library are:
+  This is a simple C++ library for maximum entropy classifiers 
+  (also known as "multinomial logistic regression"). The main features of this library are:
   * supporting L1/L2 regularization [1,2]
   * supporting fast parameter estimation algorithms (LBFGS [3], OWLQN [4], and SGD [5])
   * supporting real-valued features
