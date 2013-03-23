@@ -492,6 +492,10 @@
   Japanese morphological analyzer.
   [Chinese Document](http://www.52nlp.cn/%E6%97%A5%E6%96%87%E5%88%86%E8%AF%8D%E5%99%A8-mecab-%E6%96%87%E6%A1%A3).
 
+* [Indri](http://ciir.cs.umass.edu/~metzler/)
+  
+  an efficient, scalable search engine with a robust query language.
+
 # others #
 
 * [The Chromium Projects](http://www.chromium.org/)
