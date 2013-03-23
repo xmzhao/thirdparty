@@ -520,3 +520,5 @@
 
   Gnuplot is a portable command-line driven graphing utility for
   Linux, OS/2, MS Windows, OSX, VMS, and many other platforms.
+
+by **xueminzhao** 3/23/2013

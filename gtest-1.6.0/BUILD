@@ -1,3 +1,4 @@
+# Author: Xuemin Zhao <xmzhao1986@gmail.com>
 
 cc_library(
   name = "gtest",
@@ -6,7 +7,7 @@ cc_library(
   ],
   incs = [
     ".",
-    'include',
+    './include',
   ],
   deps = '#pthread',
   warning = 'no'
@@ -17,7 +18,7 @@ cc_library(
   srcs = [
     "src/gtest_main.cc",
   ],
-  incs = "include",
+  incs = "./include",
   deps = [
     ":gtest",
   ],

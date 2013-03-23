@@ -1,3 +1,4 @@
+# Author: Xuemin Zhao <xmzhao1986@gmail.com>
 
 cc_library(
   name = 'gtest',
