@@ -156,6 +156,8 @@ To generate static library:
     cp ml/include/opencv2/ml.hpp ~/github/thirdparty/opencv2
     cp highgui/include/opencv2/highgui.hpp ~/github/thirdparty/opencv2
     cp contrib/include/opencv2/contrib.hpp ~/github/thirdparty/opencv2
+    cp flann/include/opencv2/flann.hpp ~/github/thirdparty/opencv2
+    cp legacy/include/opencv2/legacy.hpp ~/github/thirdparty/opencv2
 
 Append the following setting
 
