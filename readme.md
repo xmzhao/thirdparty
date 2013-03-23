@@ -49,6 +49,11 @@
 
   Static Double Array Trie.
 
+* [Darts](http://chasen.org/~taku/software/darts/)
+
+  Double-ARray Trie System.
+  [Chinese Document](http://www.52nlp.cn/darts-double-array-trie-system-%E7%BF%BB%E8%AF%91%E6%96%87%E6%A1%A3).
+
 * [jsoncpp](http://jsoncpp.sourceforge.net/)
 
   JSON data format manipulation library
@@ -137,13 +142,17 @@
 
 # python #
 
+* [ipython](http://ipython.org/)
+
+  IPython provides a rich architecture for interactive computing.
+
 * [chartdir-python](http://www.advsofteng.com/index.html)
 
   The Universal Chart Component.
 
 * [matplotlib](http://matplotlib.org/)
 
-  matplotlib is a python 2D plotting library which produces publication quality figures 
+  matplotlib is a python 2D plotting library which produces publication quality figures
   in a variety of hardcopy formats and interactive environments across platforms.
 
 * [cityhash](https://github.com/Amper/cityhash)
@@ -175,8 +184,8 @@
   A fast and lightweight key/value database library by Google.
 
 * [mongodb](http://www.mongodb.org/)
-  
-  MongoDB (from "humongous") is an open source document database, 
+
+  MongoDB (from "humongous") is an open source document database,
   and the leading NoSQL database.
 
 * [Kyoto Cabinet](http://fallabs.com/kyotocabinet/)
@@ -377,14 +386,14 @@
 * [owlqn](http://research.microsoft.com/en-us/downloads/b1eb1016-1738-4bd5-83a9-370c9d498a03/)
 
   Orthant-Wise Limited-memory Quasi-Newton Optimizer for L1-regularized Objectives.
-  
+
 * [Maximum Entropy Modeling Toolkit for Python and C++](https://github.com/lzhang10/maxent)
 
   This package provides a (Conditional) Maximum Entropy Modeling Toolkit for Python and C++.
 
 * [A simple C++ library for maximum entropy classification](http://www.nactem.ac.uk/tsuruoka/maxent/)
 
-  This is a simple C++ library for maximum entropy classifiers 
+  This is a simple C++ library for maximum entropy classifiers
   (also known as "multinomial logistic regression"). The main features of this library are:
   * supporting L1/L2 regularization [1,2]
   * supporting fast parameter estimation algorithms (LBFGS [3], OWLQN [4], and SGD [5])
@@ -401,8 +410,8 @@
 
 * [Mr.LDA](https://github.com/lintool/Mr.LDA)
 
-  Mr. LDA is a Latent Dirichlet Allocation topic modeling package based on 
-  Variational Bayesian learning approach using MapReduce and Hadoop, 
+  Mr. LDA is a Latent Dirichlet Allocation topic modeling package based on
+  Variational Bayesian learning approach using MapReduce and Hadoop,
   developed by a Cloud Computing Research Team in University of Maryland, College Park.
 
 # ai - cv #
@@ -418,14 +427,14 @@
 
 * [vlfeat](http://www.vlfeat.org/index.html)
 
-  The VLFeat open source library implements popular computer vision algorithms 
-  including HOG, SIFT, MSER, k-means, hierarchical k-means, 
+  The VLFeat open source library implements popular computer vision algorithms
+  including HOG, SIFT, MSER, k-means, hierarchical k-means,
   agglomerative information bottleneck, SLIC superpixels, and quick shift.
 
 * [Mahotas](http://luispedro.org/software/mahotas)
 
   Mahotas is a set of functions for image processing and computer vision in Python.
-  
+
 * [Caltech Large Scale Image Search Toolbox](http://www.vision.caltech.edu/malaa/software/research/image-search/)
 
   This Matlab package implements several algorithms used for large scale image search,
@@ -433,17 +442,17 @@
 
 * [object bank](http://vision.stanford.edu/projects/objectbank/index.html)
 
-  Object bank representation is a novel image representation for high-level visual tasks, 
+  Object bank representation is a novel image representation for high-level visual tasks,
   which encodes semantic and spatial information of the objects within an image.
-  
+
 * [gist](http://people.csail.mit.edu/torralba/code/spatialenvelope/)
 
   Modeling the shape of the scene: a holistic representation of the spatial envelope, IJCV2001.
-  
+
 * [libpmk](http://people.csail.mit.edu/jjl/libpmk/)
 
   LIBPMK is a C++ implementation of Grauman and Darrell's Pyramid Match algorithm.
-  
+
 * [face recognition via Sparse Representation-based Classification (SRC)](https://github.com/409544320/face_recog.src)
 
   face recognition via Sparse Representation-based Classification (SRC).
@@ -469,6 +478,15 @@
   The Lemur Project develops search engines, browser toolbars,
   text analysis tools, and data resources that support research and
   development of information retrieval and text mining software.
+
+* [mallet](http://mallet.cs.umass.edu/)
+
+  MAchine Learning for LanguagE Toolkit.
+
+* [mecab](https://code.google.com/p/mecab/)
+
+  Japanese morphological analyzer.
+  [Chinese Document](http://www.52nlp.cn/%E6%97%A5%E6%96%87%E5%88%86%E8%AF%8D%E5%99%A8-mecab-%E6%96%87%E6%A1%A3).
 
 # others #
 
@@ -500,5 +518,5 @@
 
 * [gnuplot](http://gnuplot.info/)
 
-  Gnuplot is a portable command-line driven graphing utility for 
+  Gnuplot is a portable command-line driven graphing utility for
   Linux, OS/2, MS Windows, OSX, VMS, and many other platforms.
