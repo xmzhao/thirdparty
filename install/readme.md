@@ -58,6 +58,35 @@
     sudo apt-get install libpython2.7 python-dev python2.7-dev 
     sudo apt-get install python-numpy
     
+安装webp, [libwebp-0.2.1.tar.gz](https://code.google.com/p/webp/downloads/detail?name=libwebp-0.2.1.tar.gz):
+
+    tar xvzf libwebp-0.2.1.tar.gz
+    ./configure
+    make
+    make install
+
+安装openexr, 需要[ilmbase-1.0.2.tar.gz](http://www.openexr.com/downloads.html)和
+[openexr-1.7.0.tar.gz](http://www.openexr.com/downloads.html):
+
+    [install ilmbase]
+    The same as libwebp.
+    
+    [install openexr]
+    in dir ~/github/thirdparty/install/openexr-1.7.0:
+    1. /usr/local/include/OpenEXR/ImathMatrix.h:1813:5:error: 'memset' was not declared in this scope
+    
+      sudo chmod a+w /usr/local/include/OpenEXR/ImathMatrix.h
+      vi /usr/local/include/OpenEXR/ImathMatrix.h
+      add #include "string.h"
+    
+    2. blurImage.cpp:423:62:error: ‘memcpy’ was not declared in this scope
+
+      sudo chmod a+w exrenvmap/blurImage.cpp
+      vi exrenvmap/blurImage.cpp
+      add #include "string.h"
+
+**注: 折腾了半天安装如上两个库`webp`和`openexr`, 最后发现其实并不需要, 在opencv的3rdparty下有提供.**
+
 ### build ###
 
 Download source code:
@@ -88,6 +117,23 @@ To generate static library:
       -D BUILD_SHARED_LIBS=OFF \
       .
     
+    OR
+    
+    ~/github/thirdparty/install/opencv-trunk$ cmake \
+      -D BUILD_SHARED_LIBS=OFF 
+      -D CMAKE_BUILD_TYPE=RELEASE \
+      -D CMAKE_INSTALL_PREFIX=~/tmp/opencv2 
+      -D BUILD_NEW_PYTHON_SUPPORT=ON \
+      -D BUILD_EXAMPLES=ON \
+      -D BUILD_SHARED_LIBS=OFF \
+      -D BUILD_ZLIB=ON \
+      -D BUILD_TIFF=ON \
+      -D BUILD_JASPER=ON \
+      -D BUILD_JPEG=ON \
+      -D BUILD_PNG=ON \
+      -D OPENCV_BUILD_3RDPARTY_LIBS=ON \
+      .
+
     ~/tmp/opencv2$ ls lib/
     libopencv_calib3d.a            libopencv_flann.a ...
     libopencv_calib3d.so           libopencv_flann.so ...

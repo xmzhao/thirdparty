@@ -420,6 +420,10 @@
 
   OpenCV (Open Source Computer Vision) is a library of programming functions
   for real time computer vision.
+  
+* [qt-opencv-multithreaded](http://code.google.com/p/qt-opencv-multithreaded/)
+
+  A simple multithreaded OpenCV example application using the Qt framework.
 
 * [vxl](vxl.sourceforge.net)
 
